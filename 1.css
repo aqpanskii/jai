@@ -1,0 +1,156 @@
+.pods {
+	width: 1184px;
+	height: 592px;
+	background-color: green;
+	border: solid 50px;
+	border-color: #8B4513
+}
+.uu {
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 440px;
+}
+.qq {
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	bottom: -150px;
+}
+.ww {
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	left: 1184px;
+	bottom: -150px;
+}
+.ee {
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	left: 1184px;
+	bottom: 440px;
+}
+.rr {
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	left: 592px;
+	bottom: 440px;
+}
+.tt {
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	left: 592px;
+	bottom: -150px;
+}
+.yy {
+	width: 90px;
+	height: 90px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	left: 592px;
+	bottom: 200px;
+	animation: ball 3s linear infinite;
+}
+.ii {
+	width: 20px;
+	height: 400px;
+	background-color: #BDB76B;
+	position: absolute;
+	left: 629px;
+	bottom: -100px;
+    animation: kii 2s linear infinite ;
+    
+}
+@keyframes kii {
+	0%{
+		bottom: -100px;
+	}
+	100%{
+		bottom: -90px;
+	}
+}
+@keyframes ball {
+	0%{
+		bottom: 300px;
+	}
+	100% {
+		bottom: 444px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+nav {
+  width:100%;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#FFFAFA;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#000000;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#228B22;
+}
+/* header */

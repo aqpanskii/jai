@@ -1,0 +1,140 @@
+.popa {
+  height: 200px;
+  width: 20px;
+  transform-origin: center bottom;
+  position: absolute;
+  left: 25%;
+  top: 100px;
+  background-color: red;
+  animation: ruka 6s  infinite;
+}
+@keyframes ruka {
+  from {transform: rotate(0deg); animation-timing-function: ease-out;}
+  25% {transform: rotate(20deg); animation-timing-function: ease-in;}
+  50% {transform: rotate(0deg); animation-timing-function: ease-out;}
+  75% {transform: rotate(-20deg); animation-timing-function: ease-in;}
+  to {transform: rotate(0deg);}
+}
+.golova {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  background-color: #F0E68C;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+.telo {
+  height: 300px;
+  width: 250px;
+  background-color: red;
+  position: absolute;
+  left: 26%;
+  top: 45%;
+}
+.ruka2 {
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  left: 45%;
+  top: 270px;
+  background-color: red;
+}
+.ruka3 {
+  height: 100px;
+  width: 20px;
+  position: absolute;
+  left: 52%;
+  top: 270px;
+  background-color: red;
+}
+.ochko1 {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 25%;
+  position: absolute;
+  left: 40px;
+}
+.ochko2 {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 25%;
+  position: absolute;
+  left: 80px;
+}
+.palka {
+  height: 10px;
+  width: 120px;
+  background-color: black;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.ochki {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+body {
+  background: #4682B4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+nav {
+  width:100%;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#FFFAFA;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#000000;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#228B22;
+}
+/* header */

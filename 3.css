@@ -1,0 +1,210 @@
+canvas {
+  background: black;;
+}
+.ff{
+  height: 16px;
+  width: 16px;
+  background: red;
+  position: absolute;
+  bottom: 432px;
+  left: 374px;
+}
+.qq {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  animation: zmeya 6.2s linear;
+}
+.ww {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  left: 16px;
+  animation: zmeyaa 6s linear;
+}
+.ee {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  left: 32px;
+  animation: zmeyas 5.8s linear;
+}
+.rr {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  left:48px;
+  animation: zmeyad 5.6s linear;
+}
+.aa {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  left: 64px;
+  animation: zmeyaf 5.4s linear;
+}
+.ss {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  left: 80px;
+  animation: zmeyag 5.2s linear;
+}
+.dd {
+  height: 16px;
+  width: 16px;
+  background: green;
+  position: absolute;
+  bottom: 400px;
+  left: 96px;
+  animation: zmeyah 5s linear;
+}
+
+@keyframes zmeyah {
+  0%{
+    left: 96px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:535px;
+  }
+}
+@keyframes zmeyag {
+  0%{
+    left: 80px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:530px;
+  }
+}
+@keyframes zmeyaf {
+  0%{
+    left: 64px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:525px;
+  }
+}
+@keyframes zmeyad {
+  0%{
+    left: 48px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:520px;
+  }
+}
+@keyframes zmeyas {
+  0%{
+    left: 32px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:515px;
+  }
+}
+@keyframes zmeyaa {
+  0%{
+    left: 16px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:510px;
+  }
+}
+@keyframes zmeya {
+  0%{
+    left: 0px; bottom: 400px;
+  }
+  50%{
+    left: 390px;bottom: 400px;
+  }
+  100%{
+    left: 390px; bottom:505px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+nav {
+  width:100%;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#FFFAFA;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#000000;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#228B22;
+}
+/* header */
